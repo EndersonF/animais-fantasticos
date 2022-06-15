@@ -194,6 +194,36 @@ body {
   font-weight: bold;
 }
 
+/* .footer-wrap {
+  background-color: cadetblue;
+  padding: 20px;
+}
+
+.instagram {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
+}
+
+.instagram img:hover {
+  background-color: red;
+  border: 2px solid yellow;
+  border-radius: 25px;
+}
+
+.footer-wrap:hover {
+  background: white;
+  color: red;
+}
+
+.social-networks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: 2rem;
+} */
+
 @media (max-width: 700px) {
   .grid-container {
     grid-template-columns: 1fr;
