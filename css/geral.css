@@ -11,6 +11,17 @@ dl {
   padding: 0px;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e54;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -188,41 +199,52 @@ body {
   background: #fb5;
 }
 
+.social {
+  display: flex;
+  box-sizing: border-box;
+  border: 0px;
+  text-size-adjust: 100%;
+  max-width: 100%;
+  justify-content: flex-end;
+  fill: none;
+}
+
 .copy p {
   padding: 20px;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
 }
 
-/* .footer-wrap {
-  background-color: cadetblue;
-  padding: 20px;
+.social a {
+  padding: 6px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
 }
 
-.instagram {
-  display: flex;
-  width: 30px;
-  height: 30px;
-  margin-left: 8px;
+.social a {
+  transition: all 0.3s linear;
 }
 
-.instagram img:hover {
-  background-color: red;
-  border: 2px solid yellow;
-  border-radius: 25px;
+.twitter:hover {
+  background: #1da1f2;
 }
 
-.footer-wrap:hover {
-  background: white;
-  color: red;
+.git:hover {
+  background: #24292e;
 }
 
-.social-networks {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  margin-right: 2rem;
-} */
+.linkedin:hover {
+  background: #0077b5;
+}
+
+.copy img {
+  width: 36px;
+  height: 36px;
+}
 
 @media (max-width: 700px) {
   .grid-container {
