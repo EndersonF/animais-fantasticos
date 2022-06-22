@@ -241,6 +241,10 @@ body {
   background: #0077b5;
 }
 
+.instagram:hover {
+  background: #e4405f;
+}
+
 .copy img {
   width: 36px;
   height: 36px;
